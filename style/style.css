@@ -20,9 +20,10 @@
 }
 
 body {
-  background: #7f00ff;
-  background: -webkit-linear-gradient(to bottom, #e100ff, #7f00ff);
-  background: linear-gradient(to bottom, #e100ff, #7f00ff);
+    background: #6441A5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5); 
+    
 }
 
 .container_main {
