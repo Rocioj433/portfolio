@@ -20,10 +20,9 @@
 }
 
 body {
-    background: #6441A5;
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
-    background: linear-gradient(to right, #2a0845, #6441A5); 
-    
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441a5);
+  background: linear-gradient(to right, #2a0845, #6441a5);
 }
 
 .container_main {
@@ -98,4 +97,80 @@ section .container_services {
 
 .services_right h3 {
   text-align: center;
+}
+.acerca {
+  color: white;
+  display: flex;
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  font-size: 20px;
+  margin: auto;
+  height: auto;
+  background:rgba(144, 19, 254, 0.25) ;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 3px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 5px;
+}
+
+.acerca .img img {
+  width: 300px;
+}
+
+.section-contacto {
+  width: 460px;
+  margin: 40px auto;
+  background: rgba(144, 19, 254, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 5px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+.div-contacto {
+  color: white;
+  height: auto;
+}
+.div-contacto label {
+  display: block;
+  float: center;
+}
+.div-contacto input {
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.div-contacto textarea {
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.div-contacto button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+}
+.div-contacto button:hover {
+  background-color: #7f00ff;
+  color: white;
 }
