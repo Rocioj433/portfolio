@@ -26,24 +26,25 @@ body {
 }
 
 .container_main {
+  margin-top: 50px;
+  width: 100%;
 }
 
 .container_examples {
   display: flex;
   flex-direction: row;
   width: 90%;
-  margin: 50px auto;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+.container_main > .title {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 
-.habilidad > .title_example {
-  width: 100%;
-  display: flex;
-}
-.habilidad > .title_example > div {
-  margin: auto;
-  justify-content: space-around;
-  align-items: center;
-}
 .container_examples > .divs_examples {
   background: rgba(144, 19, 254, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -51,8 +52,19 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 5px;
+  margin: auto;
   color: white;
+  width: 300px;
+  text-align: center;
+  height: 250px;
+  padding: 15px;
+}
+#portfolio .title {
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 
 section .container_services {
@@ -71,22 +83,23 @@ section .container_services {
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin-right: 10px;
   color: white;
-}
-.services_left img {
-  width: 250px;
-  height: 120px;
-}
-.services_left div {
-  width: 75%;
+  padding: 25px 15px;
 }
 
-.services_left h3 {
+.card_services img {
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  padding: 25px;
+}
+
+.card_services {
+  margin: auto;
+  width: 75%;
   text-align: center;
 }
-
-.services_right img {
-  width: 250px;
-  height: 120px;
+.card_services {
+  margin-top: 50px;
 }
 
 .services_right {
@@ -98,14 +111,14 @@ section .container_services {
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin-left: 10px;
   color: white;
+  padding: 10px;
 }
-
-.services_right div {
-  width: 75%;
-}
-
-.services_right h3 {
+.section_acerca .title {
+  margin: auto;
+  color: white;
   text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 .acerca {
   color: white;
@@ -122,14 +135,17 @@ section .container_services {
   -webkit-backdrop-filter: blur(4px);
   border: 3px solid rgba(255, 255, 255, 0.18);
   border-radius: 5px;
+  padding: 50px;
 }
-
+.acerca .img p {
+  padding-top: 50px;
+}
 .acerca .img img {
   width: 300px;
 }
 
 .section-contacto {
-  width: 460px;
+  width: 500px;
   margin: 40px auto;
   background: rgba(144, 19, 254, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -141,6 +157,7 @@ section .container_services {
   padding-bottom: 10px;
   padding-left: 30px;
   margin-top: 50px;
+  padding: 50px;
 }
 .div-contacto {
   color: white;
@@ -177,7 +194,8 @@ section .container_services {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  margin-top: 10px;
+  padding-left: 10px;
+  margin: auto;
 }
 .div-contacto button:hover {
   background-color: #7f00ff;

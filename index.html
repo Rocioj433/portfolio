@@ -30,10 +30,10 @@
 
     <main>
       <div class="container_main">
-        <section id="Habilidad">
-          <div class="title_examples">
-            <h3>Habilidades</h3>
-          </div>
+        <div class="title">
+          <h3>Habilidades</h3>
+        </div>
+        <section id="habilidad">
           <div class="container_examples">
             <div class="divs_examples">
               <img
@@ -71,11 +71,14 @@
           </div>
         </section>
 
-        <section id="Portfolio">
+        <section id="portfolio">
+          <div class="title">
+            <h3>Portfolio</h3>
+          </div>
           <div class="container_services">
             <div class="services_left">
-              <div>
-                <img src="./assets/services-1.jpg" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-1.jpg" alt="" />
                 <h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
                   asperiores ad cupiditate inventore omnis incidunt iure, rem
@@ -83,8 +86,8 @@
                   et fuga. Veritatis, excepturi.
                 </h3>
               </div>
-              <div>
-                <img src="./assets/services-2.jpg" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-2.jpg" alt="" />
                 <h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Cumque vero deleniti aut dolore repellendus dolor, suscipit
@@ -92,8 +95,8 @@
                   maxime odio natus!
                 </h3>
               </div>
-              <div>
-                <img src="./assets/services-3.jpg" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-3.jpg" alt="" />
                 <h3>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Laborum blanditiis nulla incidunt inventore nihil quaerat
@@ -104,8 +107,8 @@
               </div>
             </div>
             <div class="services_right">
-              <div>
-                <img src="./assets/services-4.jpg" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-4.jpg" alt="" />
                 <h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
                   illum. Excepturi blanditiis, tenetur ratione et adipisci natus
@@ -113,8 +116,8 @@
                   nam sunt blanditiis dolore.
                 </h3>
               </div>
-              <div class="">
-                <img src="./assets/services-5.webp" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-5.webp" alt="" />
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facere optio placeat dignissimos in dolore cum id nesciunt.
@@ -123,8 +126,8 @@
                 </h3>
               </div>
 
-              <div>
-                <img src="./assets/services-6.jpg" alt="" width="50%" />
+              <div class="card_services">
+                <img src="./assets/services-6.jpg" alt="" />
                 <h3>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Laboriosam cupiditate laborum animi eligendi minus fuga,
@@ -137,30 +140,37 @@
           </div>
         </section>
       </div>
-      <section class="acerca" id="Acerca">
-        <div class="img">
-          <img src="./assets/1611614004227.jfif" alt="" />
-          <p>
-            Me llamo <strong>Rocio Sanchez</strong> y soy Frontend developer,
-            tengo 19 años y soy de Buenos Aires. A mi me encanta el desarrollo
-            web, soy una persona que siempre está dispuesta a estar en
-            aprendizaje constante sobre nuevas tecnologías y nuevos frameworks.
-            Durante la secundaria, realice un curso sobre desarrollo web basico
-            de Aprende Programando y descubrí que me gustaba mucho y que voy a
-            llegar a profesionalizarme sobre esto. Desde entonces y hasta la
-            fecha, me estoy formando en <strong>Guayerd</strong> como Frontend
-            developer. En donde aprendi, desde lo mas basico hasta lo mas
-            avanzado. Estoy muy contenta de que me haya formado y que me sienta
-            como una persona que me ha ayudado a mejorar y a crecer en todos los
-            sentidos. Por eso estoy dispuesta seguir aprendiendo y mejorando
-            constantemente, para que en el futuro pueda ser una persona que
-            pueda ayudar a otros a descubrir su pasión.
-          </p>
+      <section class="section_acerca">
+        <div class="title">
+          <h3>Acerca de mi</h3>
+        </div>
+        <div class="acerca" id="Acerca">
+          <div class="img">
+            <img src="./assets/1611614004227.jfif" alt="" />
+            <p>
+              Me llamo <strong>Rocio Sanchez</strong> y soy Frontend developer,
+              tengo 19 años y soy de Buenos Aires. A mi me encanta el desarrollo
+              web, soy una persona que siempre está dispuesta a estar en
+              aprendizaje constante sobre nuevas tecnologías y nuevos
+              frameworks. Durante la secundaria, realice un curso sobre
+              desarrollo web basico de Aprende Programando y descubrí que me
+              gustaba mucho y que voy a llegar a profesionalizarme sobre esto.
+              Desde entonces y hasta la fecha, me estoy formando en
+              <strong>Guayerd</strong> como Frontend developer. En donde
+              aprendi, desde lo mas basico hasta lo mas avanzado. Estoy muy
+              contenta de que me haya formado y que me sienta como una persona
+              que me ha ayudado a mejorar y a crecer en todos los sentidos. Por
+              eso estoy dispuesta seguir aprendiendo y mejorando constantemente,
+              para que en el futuro pueda ser una persona que pueda ayudar a
+              otros a descubrir su pasión.
+            </p>
+          </div>
         </div>
       </section>
+
       <div class="section-contacto" id="Contacto">
         <div class="div-contacto">
-          <form action="">
+          <form action="#">
             <label for="nombre">Nombre</label>
             <input type="text" />
             <label for="telefono">Telefono</label>
@@ -169,7 +179,7 @@
             <input type="email" />
             <label for="mensaje">Mensaje</label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" id="btn_contacto">Enviar</button>
           </form>
         </div>
       </div>
