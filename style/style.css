@@ -35,7 +35,16 @@ body {
   margin: 50px auto;
 }
 
-.container_examples > div {
+.habilidad > .title_example {
+  width: 100%;
+  display: flex;
+}
+.habilidad > .title_example > div {
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.container_examples > .divs_examples {
   background: rgba(144, 19, 254, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
@@ -107,11 +116,11 @@ section .container_services {
   font-size: 20px;
   margin: auto;
   height: auto;
-  background:rgba(144, 19, 254, 0.25) ;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border: 3px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(144, 19, 254, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-radius: 5px;
 }
 
