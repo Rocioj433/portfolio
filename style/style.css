@@ -84,7 +84,25 @@ section .container_services {
   margin-right: 10px;
   color: white;
   padding: 25px 15px;
+  min-width: 500px;
+  margin:auto;
 }
+
+.services_right {
+  background: rgba(144, 19, 254, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-left: 10px;
+  color: white;
+  padding: 25px 15px;
+  min-width: 500px;
+  max-width: auto;
+  margin:auto;
+}
+
 
 .card_services img {
   width: 350px;
@@ -102,17 +120,7 @@ section .container_services {
   margin-top: 50px;
 }
 
-.services_right {
-  background: rgba(144, 19, 254, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-left: 10px;
-  color: white;
-  padding: 10px;
-}
+
 .section_acerca .title {
   margin: auto;
   color: white;
@@ -125,7 +133,7 @@ section .container_services {
   display: flex;
   text-align: center;
   width: 90%;
-  height: 100px;
+  height: auto;
   font-size: 20px;
   margin: auto;
   height: auto;
@@ -135,14 +143,32 @@ section .container_services {
   -webkit-backdrop-filter: blur(4px);
   border: 3px solid rgba(255, 255, 255, 0.18);
   border-radius: 5px;
-  padding: 50px;
+  padding: 40px;
 }
 .acerca .img p {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
-.acerca .img img {
+.acerca .img .imgPerfil {
   width: 300px;
 }
+.redes {
+  width: 90%;
+  margin: auto;
+}
+.redes .github{
+width: 10%;
+padding: 0 10px;  
+margin: 0 15px;
+} 
+.redes .linkedin{
+width: 10%;
+padding: 0 10px; 
+margin: 0 15px;
+}
+
+
+
 
 .section-contacto {
   width: 500px;
